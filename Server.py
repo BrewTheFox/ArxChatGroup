@@ -13,7 +13,7 @@ usuarios_conectados = {}
 usuarios_autorizados = {} #//Esta variable fue cambiada a diccionario para facilitar añadir claves//#
 usuarios_muteados = []
 
-print("✪| AD Soft")
+print("🦊| BTFmkS")
 
 argParser = argparse.ArgumentParser()
 argParser.add_argument("-P", "--port", help="El puerto para iniciar el servidor (Opcional)")
