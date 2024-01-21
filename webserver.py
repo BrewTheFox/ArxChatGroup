@@ -119,7 +119,7 @@ def chat() -> Optional[RedirectResponse]:
                         div = ui.element('div')
                         with div:
                             for usuario in usuariosgroup: #// Por cada usuario se crea un label dentro del div //#
-                                ui.label(usuariosgroup[usuario])
+                                ui.label(usuario)
 
                     elementos()
 
