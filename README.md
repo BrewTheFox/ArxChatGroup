@@ -50,9 +50,13 @@
 </details>
 
 ## Galeria 📷
-![AdminChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h06m05s_screenshot.png)
-![LoginChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m10s_screenshot.png)
-![InterfazChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m24s_screenshot.png)
-![ErrorChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m42s_screenshot.png)
+<details>
+  <summary>Mostrar ✅</summary>
+  
+  ![AdminChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h06m05s_screenshot.png)
+  ![LoginChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m10s_screenshot.png)
+  ![InterfazChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m24s_screenshot.png)
+  ![ErrorChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m42s_screenshot.png)
+</details>
 
 ¡Disfruta de Arx Chatgroup y únete a la conversación! 🎉
