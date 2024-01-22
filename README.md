@@ -27,10 +27,19 @@
 
 <details>
   <summary>Argumentos 🛠️</summary>
+  <details>
+    <summary>Servidor 🔧</summary>
   
   - <code>-P</code>: Establece el puerto de la sala. Uso: `python Server.py -P xxxxx`
   - <code>-A</code>: Lista de administradores, separada por comas, sin espacios. Uso: `python Server.py -A Admin1,Admin2,Admin3...`
   - <code>-H</code>: IP del host del servidor. Uso: `python Server.py -H 0.0.0.0`
+   </details>
+     <details>
+    <summary>Servidor Web 🌐</summary>
+  
+  - <code>-P</code>: Establece el puerto de la sala a la que se va a conectar. Uso: `python webserver.py -P xxxxx`
+  - <code>-H</code>: Establece la IP del host del servidor de la sala a la que se va a conectar. Uso: `python Server.py -H 0.0.0.0`
+   </details>
 </details>
 
 ## Cómo instalar 🚀
