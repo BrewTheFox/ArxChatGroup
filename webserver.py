@@ -7,6 +7,7 @@ from typing import Optional
 from fastapi import Request
 from fastapi.responses import RedirectResponse
 from starlette.middleware.base import BaseHTTPMiddleware
+import argparse
 
 unrestricted_page_routes = {'/'}
 class AuthMiddleware(BaseHTTPMiddleware):
@@ -18,6 +19,11 @@ class AuthMiddleware(BaseHTTPMiddleware):
         return await call_next(request)
 
 app.add_middleware(AuthMiddleware)
+
+argParser = argparse.ArgumentParser()
+argParser.add_argument("-P", "--port", help="El puerto del servidor chatgroup (Opcional)")
+argParser.add_argument("-H", "--host", help="IP del host de chatgroup (Opcional)")
+args = argParser.parse_args()
 
 usuariosgroup = ["Espere..."] #//Se declara una lista global para los usuarios//#
 lock = threading.Lock()
@@ -125,7 +131,7 @@ def chat() -> Optional[RedirectResponse]:
 
                     #// Este bloque se encarga de iniciar la conexion por socket al servidor//#
                     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-                    client.connect(('0.0.0.0', 25583))
+                    client.connect((args.host or '0.0.0.0', args.port or 25583))
                     client.send(app.storage.user.get('Usuario').encode())
                     FirstClientMsg = client.recv(1064).decode("utf-8")
                     if not "Error, " in FirstClientMsg:
