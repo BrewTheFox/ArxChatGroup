@@ -378,7 +378,7 @@ def main(): #// Se encarga de manejar el servidor por socket //#
         client_thread.start()
 if __name__ == "__main__":
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind((HOST, PORT))
+    server.bind((HOST, int(PORT)))
     main()
 
 ################################################################################################################################################################################
