@@ -36,7 +36,7 @@ if args.admins is not None:
 
 #//Puerto y IP//#
 HOST = args.host or "0.0.0.0"
-PORT = int(args.port) or 25583
+PORT = args.port or 25583
 
 print("Contact for Support at justbrewthefox#0")
 
