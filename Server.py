@@ -35,20 +35,8 @@ if args.admins is not None:
             print(f'El usuario del administrador "{administrador}" es muy corto, asi que no fue añadido')
 
 #//Puerto y IP//#
-if args.host is None:
-    HOST = '0.0.0.0'
-else:
-    try:
-        HOST = args.host
-    except:
-        HOST = '0.0.0.0'
-if args.port is None:
-    PORT = 25583
-else:
-    try:
-        PORT = int(args.port)
-    except:
-        PORT = 25583
+HOST = args.host or "0.0.0.0"
+PORT = int(args.port) or 25583
 
 print("Contact for Support at justbrewthefox#0")
 
