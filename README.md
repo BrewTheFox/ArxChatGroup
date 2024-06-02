@@ -46,7 +46,7 @@
 <details>
   <summary>Servidor 🔧</summary>
 
-  - No requiere repositorios adicionales
+  - No requiere repositorios adicionales.
   - Ejecutar: `python Server.py`
 </details>
 
