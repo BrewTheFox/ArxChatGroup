@@ -68,4 +68,4 @@
   ![ErrorChatGroup](https://github.com/BrewTheFox/ArxChatGroup/blob/main/img/240121_11h27m42s_screenshot.png)
 </details>
 
-¡Disfruta de Arx Chatgroup y únete a la conversación! 🎉
+¡Disfruta de Arx Chatgroup y únete a la conversación! 🎉.
