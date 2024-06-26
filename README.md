@@ -53,7 +53,7 @@
 <details>
   <summary>Servidor Web 🌐</summary>
 
-  - Requiere Uvicorn, NiceGUI y AIOHTTP
+  - Requiere Uvicorn, NiceGUI y AIOHTTP.
   - Ejecutar: `pip install -r requirements.txt`
   - Ejecutar: `python webserver.py`
 </details>
